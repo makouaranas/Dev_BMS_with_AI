@@ -1,6 +1,6 @@
 B*.mat
-slprj/
-    
+slprj
+nasa_training*.mat    
 *.asv    
 *.slxc         # Compiled models
 codegen/       # Generated code
