@@ -1,7 +1,12 @@
 %% Initiation
 SOCInit =.5;
 
-
+%% EKF variable
+Q  = 0.5;
+R  = 0.7;
+P0 = 0.7;
+Ts = 0.1;
+SOC0 =.5;
 
 %% Varibales of Balancing system
 
@@ -16,6 +21,10 @@ PassiveBalancingRes(7) = 5;
 PassiveBalancingRes(8) = 5;
 PassiveBalancingRes(9) = 5;
 PassiveBalancingRes(10) = 5;
+
+balancingTime = 2000;
+balancingRelaxationTime = 1000;
+
 
 %Varibales related to Balancing in Chart
 DeltaVTargetMin = 0.001;
