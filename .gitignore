@@ -1,0 +1,6 @@
+B*.mat
+slprj/
+    
+*.asv    
+*.slxc         # Compiled models
+codegen/       # Generated code
