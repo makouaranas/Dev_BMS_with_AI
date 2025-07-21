@@ -104,6 +104,9 @@ for file_idx = 1:length(mat_files)
                     sequence_matrix(1, :) = voltage_norm(seq_start:seq_end);
                     sequence_matrix(2, :) = current_norm(seq_start:seq_end);
                     sequence_matrix(3, :) = temp_norm(seq_start:seq_end);
+                    %best approch
+                    %target_soc_sequence = soc_values(seq_start:seq_end);  % 50 SOC values
+                    %YTrain{global_sequence_count} = target_soc_sequence;
                     
                     target_soc = soc_values(seq_end);
                     
