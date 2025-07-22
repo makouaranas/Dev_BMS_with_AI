@@ -78,8 +78,8 @@ Cell2CellConductiveThermConduct = 401;
 %% Safe Operation Area
 
 % Temperature parameters
-CellTemperatureLimitThreshold_Warning = 50 + 273.15; %[K]
-CellTemperatureLimitThreshold_Fault = 65 + 273.15; %[K]
+CellTemperatureLimitThreshold_Warning = 50 ; %[K]
+CellTemperatureLimitThreshold_Fault = 65 ; %[K]
 
 % Current parameters
 CellCurrentLimitThreshold_Warning = 20; %[A]
